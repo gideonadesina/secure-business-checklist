@@ -61,4 +61,31 @@ Small businesses can use this checklist to:
 - Prepare better questions for developers or security consultants
 
 This checklist is designed for **non-technical business owners**, not hackers.
+---
+
+## Sample Security Review (Mini Audit)
+
+Below is an example of how this checklist can be used to review a real business website.
+
+### Website Type
+Small Business / Service Website
+
+### Findings Summary
+- Contact form lacks rate limiting
+- No visible privacy statement
+- Basic input validation present
+- HTTPS enabled
+- No visible backup strategy
+
+### Risk Level
+Medium
+
+### Recommended Actions
+1. Add rate limiting or submission timing checks to forms
+2. Include a clear privacy notice for users
+3. Ensure regular website backups
+4. Review dependencies and plugins regularly
+
+### Outcome
+Improving these areas reduces spam, improves trust, and lowers the risk of data exposure.
 
